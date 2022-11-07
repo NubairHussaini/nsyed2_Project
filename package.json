@@ -1,0 +1,25 @@
+{
+  "name": "nsyed2_project",
+  "version": "1.0.0",
+  "description": "CIS545 Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NubairHussaini/nsyed2_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NubairHussaini/nsyed2_Project/issues"
+  },
+  "homepage": "https://github.com/NubairHussaini/nsyed2_Project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}

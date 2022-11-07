@@ -1,0 +1,115 @@
+
+*{
+    
+    font-size: 110%;
+    mix-blend-mode:darken;
+}
+body{
+    background-image: url(sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 255);
+    mix-blend-mode: multiply;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+figure{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    text-align-last: center;
+    font-size: 110%;
+}
+#info1{
+    margin-bottom: 0%;
+    
+}
+.main-data{
+    margin: 3em;
+}
+.main-nav{
+    position:relative;
+    left: 0;
+    bottom:0;
+    z-index: 1000;
+}
+.main-nav li{
+    display: inline-block;
+    align-self: center;
+    text-decoration: none;
+    margin:0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .25em;
+    border-style:solid;
+    border-color:black;
+    background-color: #60bce73e;
+    border-radius: 25%;
+  
+    
+}
+.main-nav li:hover{
+    background-color: rgba(9, 9, 9, 0.127);
+    cursor:pointer;
+    background-blend-mode: multiply;
+    
+   
+
+}
+.main-head{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-emphasis: none;
+    font-size: 150%;
+    margin: 1em;
+    padding: .5em;
+    background-color:black;
+    color: lightgray;
+    border-top: 1em;
+    border-bottom: 1em;
+    border-left: 1em;
+    border-right: 1em;
+}
+.info{
+    background-color: rgba(9, 9, 9, 0.127);
+    padding: .5em;
+    margin:1em;
+    padding-left: 1em;
+    padding-bottom: .9em;
+    max-width: 25%;
+    margin-left: 3em;
+    border-width:.1em;
+    border-color:black;
+    border-style: solid;
+}
+.sub-head{
+    margin-left: 5em;
+    margin-top: 1em;
+    font-weight:unset;
+    font-size: 1.5em;
+}
+.home-nav{
+    margin: 3em;
+}
+.home-nav li{
+    margin: 2em;
+    
+    
+}
+.home-nav li:hover{
+    background-color: rgba(7, 78, 116, 0.127);
+    cursor:pointer;
+    background-blend-mode: multiply;
+    padding: .1em;
+    padding-right: .1em;
+    margin-right: .1em;
+    border-right:.1em;
+}
+.home-data{
+    margin-left: 2em;
+    margin-right: 2em;
+}
